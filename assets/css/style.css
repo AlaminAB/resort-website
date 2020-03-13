@@ -25,7 +25,23 @@ CSS Index End */
 
 /* Google Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,600,700|Poppins:400,500&display=swap');
+@font-face {
+  font-family: Avenir;
+  src: url(../fonts/AvenirLTStd-Book.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../fonts/AvenirLTStd-Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../fonts/AvenirLTStd-Roman.otf);
+  font-weight: 600;
+}
 
 /* 
   font-family: 'Josefin Sans', sans-serif;
@@ -45,7 +61,7 @@ CSS Index End */
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Avenir;
     font-weight: normal;
     font-style: normal;
     background-color: var(--body);
@@ -93,7 +109,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: Avenir;
     font-weight: 400;
     font-style: normal;
     color: var(--h);
@@ -128,7 +144,7 @@ h6 {
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+   font-family: Avenir;
     font-size: 17px;
     font-weight: 400;
     line-height: 30px;
@@ -137,7 +153,7 @@ p {
 }
 
 a {
-    font-family: 'Poppins', sans-serif;
+    font-family: Avenir;
     color: var(--a);
     font-size: 14px;
     font-weight: 400;
