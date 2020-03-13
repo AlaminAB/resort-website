@@ -613,3 +613,12 @@ section.propertes-slider {
     margin: 0;
     padding-bottom: 5px;
 }
+.propertes-slider .carousel-item img {
+    height: 100%;
+    max-height: 450px;
+        object-fit: scale-down;
+}
+.propertes-img-section{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
