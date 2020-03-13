@@ -168,12 +168,45 @@ a {
 /* nav bar  */
 a.navbar-brand.logo img {
     width: 100%;
-    max-width: 120px;
+    max-width: 140px;
 }
 nav.navbar {
     padding: 5px 30px;
 }
 a.nav-link {
+    color: #000000ba !important;
+    font-weight: 500;
     font-size: 16px;
+}
+a.nav-link {
+    position: relative;
+    display: inline-block;
+
+}
+
+a.nav-link:after {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    background: #d9ab34;
+    left: -20%;
+    bottom: 3px;
+     -webkit-transition: all .4s;
+       -moz-transition: all .4s;
+        -ms-transition: all .4s;
+         -o-transition: all .4s;
+            transition: all .4s;
+            opacity: 0
+  
+}
+a.nav-link:hover{
+    color: #0063a2 !important;
+}
+a.nav-link:hover:after {
+
+    left: 50%;
+  transform: translateX(-50%);
+  opacity: 1
 }
 /************** Template CSS End **************/
