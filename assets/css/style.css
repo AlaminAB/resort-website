@@ -64,7 +64,7 @@ body {
     font-family: Avenir;
     font-weight: normal;
     font-style: normal;
-    background-color: var(--body);
+    background-color:#fff;
 }
 
 a,
@@ -165,54 +165,15 @@ a {
 
 /************** Template CSS **************/
 
-.circle {
-    width: 80px;
-    height: 80px;
-    background: red;
-    border-radius: 50%;
-    position: absolute;
-    cursor: pointer;
-}
-
-
-
-
-.scroe {
-    position: absolute;
-    left: 50%;
-    font-size: 20px;
-    color: #fff;
-    top: 24px;
-}
-
-
-
-.win {
-    background: lime;
-    position: absolute;
+/* nav bar  */
+a.navbar-brand.logo img {
     width: 100%;
-    top: 50%;
-    padding: 50px;
-    font-size: 50px;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    display: none;
+    max-width: 120px;
 }
-.loss {
-    background: red;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    padding: 50px;
-    font-size: 50px;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    display: none;
+nav.navbar {
+    padding: 5px 30px;
 }
-.d-block{
-    display: none;
+a.nav-link {
+    font-size: 16px;
 }
-
 /************** Template CSS End **************/
