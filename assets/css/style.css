@@ -168,22 +168,23 @@ a {
 /* nav bar  */
 a.navbar-brand.logo img {
     width: 100%;
-    max-width: 140px;
+    max-width: 150px;
 }
 nav.navbar {
     padding: 5px 30px;
 }
 a.nav-link {
-    color: #000000ba !important;
+    color: #000000bf !important;
     font-weight: 500;
-    font-size: 16px;
-}
-a.nav-link {
-    position: relative;
+    font-size: 17px;
+      position: relative;
     display: inline-block;
-
+    text-transform: uppercase;
 }
 
+li.nav-item {
+    padding: 0px 12px;
+}
 a.nav-link:after {
     position: absolute;
     content: "";
