@@ -402,7 +402,7 @@ padding-bottom: 70px;
 section.cta-section {
       position: relative;
     height: 100%;
-    background-image: url(../img/cta-banner.jpg);
+    background-image: url(../img/cta-banner.png);
     background-size: 100% 100%;
         padding: 55px 0px;
 }
@@ -491,21 +491,6 @@ section.cta-section:after {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer css  */
 .logo-section img {
     width: 100%;
@@ -575,3 +560,56 @@ footer {
 }
 
 /************** Template CSS End **************/
+
+
+/* propertes slider  */
+section.propertes-slider {
+    padding: 60px 0px;
+}
+.propertes-slider ol.carousel-indicators li {
+    width: 11px;
+    height: 0px;
+    background: #000;
+    border-radius: 50%;
+}
+.banner-img img {
+    width: 100%;
+}
+.propertes-slider ol.carousel-indicators {position: absolute;bottom: -40px;}
+
+.propertes-slider.section-title h2:before {
+    width: 15px;
+    height: 15px;
+    bottom: -19px;
+    }
+   .propertes-slider .section-title h2:after {
+    width: 10%;
+}
+.propertes-slider-right {margin-left: 20px;border-bottom: 5px dotted #0064a2;width: 65%;margin-bottom: 20px;}
+
+.propertes-slider-right h2 {
+    color: #0064a2;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.propertes-slider-right p {
+    font-size: 18px;
+    color: #000c;
+}
+
+.propertes-desc {
+    padding-left: 20px;
+}
+
+.propertes-desc p {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.propertes-describe p {
+    margin: 0;
+    padding-bottom: 5px;
+}
