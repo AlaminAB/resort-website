@@ -317,7 +317,18 @@ section.about-section {
 
 .section-title h2:after {content: "";position: absolute;left: 50%;width: 41%;bottom: -13px;background: #0064a2;height: 3px;transform: translateX(-50%);border-radius: 49%;}
 
-.section-title h2:before {content: "";width: 20px;height: 20px;position: absolute;left: 50%;bottom: -20px;border: 2px solid #0064a2;transform: translateX(-50%) rotate(45deg);}
+.section-title h2:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    border: 2px solid #0064a2;
+    transform: translateX(-50%) rotate(45deg);
+    background-color: #fff;
+    z-index: 999;
+}
 
 .about-section-img {
     padding-top: 78px;
