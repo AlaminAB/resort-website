@@ -1,0 +1,202 @@
+/*
+  Theme Name: 
+  Author: 
+  Support: 
+  Description: 
+  Version: 1.0
+*/
+
+
+/* CSS Index 
+-----------------------------------
+01.
+02.
+03.
+04.
+05.
+06.
+07.
+08.
+09.
+10.
+-----------------------------------
+CSS Index End */
+
+
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,600,700|Poppins:400,500&display=swap');
+
+/* 
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+*/
+
+
+/************** Default CSS **************/
+
+:root {
+    --body: #252527;
+    --p: #fff;
+    --a: #fff;
+    --p: #fff;
+    --h: #fff;
+    --dark: #1F1F20;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: var(--body);
+}
+
+a,
+.button,
+button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--h);
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--p);
+    margin-bottom: 15px;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: var(--a);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/************** Default CSS End **************/
+
+
+/************** Template CSS **************/
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+
+
+.scroe {
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;
+    top: 24px;
+}
+
+
+
+.win {
+    background: lime;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    display: none;
+}
+.loss {
+    background: red;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    display: none;
+}
+.d-block{
+    display: none;
+}
+
+/************** Template CSS End **************/
