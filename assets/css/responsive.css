@@ -129,6 +129,41 @@ section.propertes-img-section.mt-5 {
     top: 19px;
     right: -140px;
 }
+.invest-content h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+.invest-content p {
+    line-height: 24px;
+    font-size: 16px;
+}
+.text-center.invest-title h2 {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 500;
+    }
+    .text-center.invest-title p {
+    font-size: 16px;
+line-height: 25px
+}
+.invest-content p {
+    line-height: 21px;
+    font-size: 15px;
+}
+.invest-content h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+section.invest-bg-img h2 {
+    font-size: 25px;
+    line-height: 32px;
+}
+section.invest-bg-img p {
+    font-size: 16px;
+    line-height: 22px;
+}
 }
 
 /* Extra small devices (portrait phones, less than 768px) */
@@ -216,7 +251,123 @@ section.propertes-img-section2 img {
     margin-top: 80px;
     max-width: 900px;
 }
+.ab-park-header h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .ab-park-text {
+        padding-right: 0px;
+    }
+    ul.ab-park-list {
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+    .section-title h2 {
+        font-size: 24px;
+        line-height: 36px;
+        padding-bottom: 10px;
+    }
+    .ab-park-header h3 {
+        font-size: 20px;
+    }
+    ul.ab-park-list li {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .single-record {
+        margin-bottom: 60px;
+    }
+    .single-record::after {
+        content: '\f309';
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100px;
+        font-size: 20px;
+    }
+    .suc-record-wrap {
+        background-size: cover;
+    }
+    .contact-form {
+        padding-right: 0;
+        border-right: none;
+        margin-bottom: 30px;
+    }
+    .contact-address {
+        padding-left: 0;
+    }
+    .about-us-wrap .section-title h2:after {
+        width: 60%;
+    }
+    .logo-section {
+    text-align: center;
+    padding-top: 30px;
 }
+.logo-section h4 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+section.designed-section {
+    padding: 40px 0px;
+}
+section.designed-section .row.pb-5 {
+    padding-bottom: 15px !important;
+}
+.designed-right-desc h2 {
+    font-size: 25px;
+    padding-top: 35px;
+}
+section.location-slider img {
+    margin-bottom: 25px;
+}
+section.location-slider {
+    padding-bottom: 30px;
+}
+section.invest-section1 {
+    padding: 40px 0px;
+}
+.text-center.invest-title h2 {
+    font-size: 25px;
+    line-height: 36px;
+    }
+    .text-center.invest-title p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.invest-content.conent-box {
+    margin-bottom: 30px;
+}
+.invest-content h2 {
+    font-size: 25px;
+    margin-bottom: 11px;
+}
+section.invest-bg-img h2 {
+    font-size: 24px;
+    line-height: 35px;
+    }
+    section.invest-bg-img p {
+    font-size: 15px;
+    line-height: 20px;
+}
+.accordion>.card>.card-header a {
+    font-size: 15px !important;
+}
+section.invest-bg-img {
+    margin: 40px 0px;
+}
+section.invest-section1 .row.mb-4 {
+    margin-bottom: 0px !important;
+}
+.invest-img img {
+    margin-top: 20px;
+}
+}
+
+
+
+
+
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -425,5 +576,47 @@ section.propertes-img-section.mt-5 {
 .propertes-sm-img-info2 p {
     font-size: 15px;
     margin-top: 0px;
+}
+.suc-record-wrap {
+    padding: 20px 0;
+}
+.about-park-wrap {
+    padding: 40px 0;
+}
+.location-title.section-title h2:after {
+    width: 30%;
+}
+.section-title h2 {
+    text-align: center;
+    padding-bottom: 0;
+}
+.designed2-right-desc h2 {
+    font-size: 25px;
+}
+.designed2-right-desc span {
+    font-size: 15px;
+}
+.designed2-right-img img {
+    min-height: 250px;
+    margin-top: 20px;
+    }
+
+    .invest-content p {
+    font-size: 15px;
+    line-height: 24px;
+}
+.text-center.invest-title h2 {
+    font-size: 16px;
+    line-height: 25px;
+    }
+    .invest-content.conent-box {
+    height: 230px;
+}
+section.invest-bg-img h2 {
+    font-size: 18px;
+    line-height: 26px;
+    }
+    section.invest-bg-img {
+    padding: 35px 0px;
 }
 	}
