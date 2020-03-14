@@ -627,3 +627,9 @@ a.nav-link {
     font-size: 15px;
 }
 	}
+
+	@media (min-width: 318px) and (max-width: 400px){
+		.sm-device-slider {
+    height: 200px;
+}
+	}
