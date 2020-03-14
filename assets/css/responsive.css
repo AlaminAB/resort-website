@@ -619,4 +619,11 @@ section.invest-bg-img h2 {
     section.invest-bg-img {
     padding: 35px 0px;
 }
+.about-us-wrap {
+    padding: 40px 0;
+}
+a.nav-link {
+   
+    font-size: 15px;
+}
 	}
