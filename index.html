@@ -75,7 +75,7 @@
                     <div class="slider-overly">
                         <h2>Build A Better Tomorrow By</br> Investing Today</h2>
                         <ul>
-                            <li><a data-fancybox href="https://vimeo.com/396129058"><i class="fas fa-play"></i> <span>Click to take a tour</span></a></li>
+                            <li><a class="fancybox1" href="https://vimeo.com/396129058"><i class="fas fa-play"></i> <span>Click to take a tour</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                     <div class="slider-overly">
                         <h2>real estate is still the best</br> investment today</h2>
                         <ul>
-                            <li><a href="#"><i class="fas fa-play"></i> <span>Click to take a tour</span></a></li>
+                            <li><a  class="fancybox1" href="https://vimeo.com/396129058"><i class="fas fa-play"></i> <span>Click to take a tour</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                     <div class="slider-overly">
                         <h2>your very own home</br> in nature</h2>
                         <ul>
-                            <li><a href="#"><i class="fas fa-play"></i> <span>Click to take a tour</span></a></li>
+                            <li><a class="fancybox1" href="https://vimeo.com/396129058"><i class="fas fa-play"></i> <span>Click to take a tour</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                     <div class="about-section-img">
                         <img src="assets/img/about-us.jpg" class="w-100" alt="about us">
                         <div class="about-overly">
-                            <a data-fancybox href="https://vimeo.com/396129058"><i class="fas fa-play"></i></a>
+                            <a class="fancybox2" href="https://vimeo.com/396129058"><i class="fas fa-play"></i></a>
                         </div>
                     </div>
                 </div>
@@ -308,7 +308,13 @@
     <script src="assets/js/main.js"></script>
     <script>
     $(document).ready(function() {
-        $('[data-fancybox]').fancybox({
+        $('.fancybox1').fancybox({
+
+            vimeo: {
+                color: 'f00'
+            }
+        });
+         $('.fancybox2').fancybox({
 
             vimeo: {
                 color: 'f00'
